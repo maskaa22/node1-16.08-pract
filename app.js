@@ -88,7 +88,7 @@ for (let user of users) {
     });
 
     if (user.age >= 20) {
-        console.log(20);
+        //console.log(20);
         if (user.gender === 'female') {
             console.log(333);
             fs.rename(usersDirectori, womanOlder20, err => {
